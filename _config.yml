@@ -1,7 +1,8 @@
 # ----
 # Site
 
-title: Hydra Template
+title: 500Investments Scam? Fact check and final verdict 
+tagline:
 url: "https://proud-alligator.cloudvent.net"
 baseurl:
 google_analytics_key:
@@ -10,15 +11,14 @@ disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Product marketing template for Jekyll.
+description: 'Is 500investments scam or not? Honest broker or Scam broker? this report provides all the information on 500Investments and exposes the truth behind the “scam brokers” scheme'
 author:
   name:
   email:
   twitter: # twitter username without the @ symbol
 social:
-  name: Hydra Template
+  name: 
   links:
-    - https://github.com/CloudCannon/hydra-jekyll-template
 
 # -----
 # Build
@@ -36,38 +36,9 @@ permalink: pretty
 defaults:
   -
     scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      _options:
-        content:
-          width: 1500
-          height: 2500
-  -
-    scope:
-      path: ""
-      type: "staff_members"
-    values:
-      _options:
-        image_path:
-          width: 600
-          height: 600
-  -
-    scope:
-      path: ""
-    values:
-      layout: "page"
-  -
-    scope:
       path: "index.html"
     values:
       layout: "default"
-  -
-    scope:
-      path: "contact.html"
-    values:
-      full_width: true
 
 jekyll-archives:
   enabled:
@@ -90,15 +61,15 @@ exclude:
 # CloudCannon
 
 social_icons:
-  - Facebook
-  - Google Plus
-  - Instagram
-  - LinkedIn
-  - Pinterest
-  - Tumblr
-  - Twitter
-  - YouTube
-  - RSS
+  # - Facebook
+  # - Google Plus
+  # - Instagram
+  # - LinkedIn
+  # - Pinterest
+  # - Tumblr
+  # - Twitter
+  # - YouTube
+  # - RSS
 
 _comments:
   map: Update the map location and display settings.
